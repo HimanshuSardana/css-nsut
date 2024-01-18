@@ -284,6 +284,13 @@ summary:before {
     border-bottom: 1px solid #fff;
 }
 
+.faq .left img {
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 5%;
+    padding-right: 10%;
+}
+
 .contact .left textarea::placeholder {
     color: #fff;
     font-family: 'Poppins';
@@ -293,6 +300,8 @@ summary:before {
 .contact .right {
     display: flex;
     align-items: center;
+    margin-top: 5%;
+    margin-left: 5%;
     justify-content: space-between;
     flex-direction: column;
     gap: 20px;
